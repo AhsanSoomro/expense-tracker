@@ -4,7 +4,7 @@ import TransactionReducer from "./transReducer";
 
 const initialtransactions = [
     {amount: 500, desc:"Cash"},
-    {amount: -100, desc:"Book"},
+    {amount: -250, desc:"Book"},
     {amount: -200, desc:"Camera"},
   ]
 
@@ -20,7 +20,7 @@ export const TransactionProvider = ({children})=> {
             type: "ADD_TRANSACTION",
             payload: {
                 amount:transObj.amount ,
-                cash:transObj.desc
+                desc:transObj.desc
             },
         })
     }
