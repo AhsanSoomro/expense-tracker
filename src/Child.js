@@ -4,7 +4,7 @@ import {TransactionContext} from './transContext';
 
 
 function Child() {
-  let transactions = useContext(TransactionContext);
+  let {Transactions} = useContext(TransactionContext);
 
   return (
     <div className="container">
@@ -21,7 +21,7 @@ function Child() {
       <hr />
 
       <ul className="transaction-list">
-        {transactions.map((transObj, ind)=>{
+        {Transactions.map((transObj, ind)=>{
           return(
             <li>
               <span>{transObj.desc}</span>

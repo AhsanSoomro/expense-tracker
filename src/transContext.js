@@ -19,8 +19,8 @@ export const TransactionProvider = ({children})=> {
         dispatch({
             type: "ADD_TRANSACTION",
             payload: {
-                amount:  transObj.amount ,
-                cash: transObj.desc
+                amount:transObj.amount ,
+                cash:transObj.desc
             },
         })
     }
