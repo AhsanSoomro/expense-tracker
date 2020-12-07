@@ -1,3 +1,7 @@
+Project #1 for [Panacloud Bootcamp 2020](https://panacloud.github.io/bootcamp-2020/). Expense Tracker App built with React and context api using reducer.
+
+![demo](https://github.com/AhsanSoomro/expense-tracker/blob/main/src/images/first-react-project.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
